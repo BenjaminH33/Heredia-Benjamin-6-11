@@ -1,0 +1,18 @@
+CI/CD:
+Es una forma en la que podemos integrar el codido de diferentes personas de manera simultanea utilizando la automatizacion, esto siendo lograr cumplir el trabajo pero utilizando maquinaria en vez de necesitar de empleados, basicamente estratregais para generar software mas agil y de manera mas rapida.
+
+Esta se divide en dos partes: 
+ci (continous integracion), tiene ciertas etapas que se deben de cumplir, siendo estas corregir errores, mejorar o añadir funciones luego de esto va hacia la fase de prueba. Consiste en integrar los cambios del software final, validar esto encontra de pruebas para asegurarse que no afectaran al mismo.
+
+cd (continuos delivery/deployment), consiste en el proceso de desarrollar un software en el que cada cambio se libere lo mas rapido posible, estas etapas se haran de forma automatizada. Consiste en liberar el software de forma manual con los cambios que chequeamos anteriormente, luego se debera de realizar el proceso de forma automatizada.
+
+Ambiente de Produccion:
+Espacio donde se aplicara el sistema, donde los usuarios finales hacen uso del mismo.
+
+
+Ambiente de Staging:
+Espacio en donde se hacen pruebas de software, este entorno esta basado solamente para probar codigos, construcciones y actualizaciones para asegurar la calidad del mismo.
+
+
+Ambiente de Pruebas:
+Espacio cerrado que aisla cualquier tipo de cambio en el codigo, ya que sera para probar y experimentar en el mismo.
