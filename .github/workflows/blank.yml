@@ -49,6 +49,7 @@ jobs:
             cd ultimo
             touch pelota.txt
             mv pelota.txt /home/runner/work/Heredia-Benjamin-6-11/Heredia-Benjamin-6-11
+            ls
             
             
             
