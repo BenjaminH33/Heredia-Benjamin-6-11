@@ -10,6 +10,7 @@ jobs:
     
     - name: echo a String
       run: echo "Hello World"
+      
     - name: echo a CD
       run: |
             mkdir pepe
@@ -23,6 +24,14 @@ jobs:
             touch holas.txt
             ls >> hola.txt
             tail hola.txt
+            
+    - name: echo a cat
+      run: |
+            mkdir jose
+            cd jose
+            cat > celu.txt
+            probando123
+            
             
             
             
