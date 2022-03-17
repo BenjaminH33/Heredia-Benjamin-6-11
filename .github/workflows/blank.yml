@@ -29,7 +29,7 @@ jobs:
       run: |
             mkdir jose
             cd jose
-            cat > celu.txt
+            cat celu.txt
             probando123
             
             
