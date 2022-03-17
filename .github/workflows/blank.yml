@@ -35,7 +35,13 @@ jobs:
       run: |   
             pwd
             
-
+    
+    - name: echo a cp
+      run: |
+            mkdir heredia
+            cd heredia
+            touch pepas.txt
+            cp pepas.txt /home/runner/work/Heredia-Benjamin-6-11/Heredia-Benjamin-6-11
             
             
             
