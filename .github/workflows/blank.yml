@@ -36,9 +36,7 @@ jobs:
             mkdir heredia
             cd heredia
             touch pepas.txt
-            cp pepas.txt
-            
-            
+            cp pepas.txt C:\Users\Alumno\Desktop\aaron
             
             
             
