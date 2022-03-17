@@ -20,8 +20,11 @@ jobs:
       run: |
             mkdir javier
             cd javier
+            touch holas.txt
             ls >> hola.txt
             tail hola.txt
+            
+            
             
             
             
