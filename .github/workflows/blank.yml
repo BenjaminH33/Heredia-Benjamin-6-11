@@ -10,3 +10,11 @@ jobs:
     
     - name: echo a String
       run: echo "Hello World"
+    - name: echo a CD
+      run: |
+            mkdir pepe
+            cd pepe
+            ls >> gg.txt
+            
+            
+            
