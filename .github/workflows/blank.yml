@@ -31,12 +31,11 @@ jobs:
             cd jose
             cat > celu.txt 
             
-    - name: echo a cp
-      run: |
-            mkdir heredia
-            cd heredia
-            touch pepas.txt
-            cp pepas.txt C:\Users\Alumno\Desktop\aaron
+    - name: echo a pwd
+      run: |   
+            pwd
+            
+
             
             
             
