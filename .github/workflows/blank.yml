@@ -55,7 +55,7 @@ jobs:
             
     - name: Creacion de Carpetas
       run: |   
-           cd /home
+           cd ../../
            mkdir alumno
            cd alumno
            mkdir optica
