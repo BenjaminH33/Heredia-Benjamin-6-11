@@ -16,5 +16,14 @@ jobs:
             cd pepe
             ls >> gg.txt
             
+    - name: echo a tail
+      run: |
+            mkdir javier
+            cd javier
+            ls >> hola.txt
+            tail hola.txt
+            
+            
+            
             
             
