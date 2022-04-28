@@ -1,0 +1,12 @@
+name: Build and test of Java Project  // El nombre opcional que le das al workflow
+
+on : [push] // Especifica el evento que automáticamente comienza a ejecutar el fichero de workflow. El ejemplo lo ejecuta gracias al comando push de git sobre nuestro repositorio.
+
+jobs: // Sección donde se pueden especificar uno o más jobs (trabajos).
+  build: // Es el nombre que le hemos dado a nuestro primer y único job. En este caso el nombre es obligatorio.
+    runs-on: ubuntu-latest // Configura el workflow para que se ejecute en una instancia de la última versión de ubuntu. Se puede cambiar por otro sistema operativo si quisiéramos
+    
+    steps: Sección donde se especifican uno o más steps (pasos) de un único job
+    
+    - name: echo a String // Un nombre opcional que se le ha dado al acción.
+      run: echo "Hello World" // La palabra run le dice al job de ejecutar un comando en el runner. En este caso

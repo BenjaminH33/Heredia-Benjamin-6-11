@@ -1,0 +1,84 @@
+CP: se utiliza para copiar el contenido de un directorio o fichero a una ubicación específica
+
+LS: Lista el contenido de un determinado directorio
+
+CD: Nos sirve para movernos entre carpetas
+
+PWD: Imprime el nombre del directorio de trabajo actual
+
+TAIL: se utiliza para mostrar las últimas líneas de un archivo (de texto)
+
+CAT: Se utiliza para crear un archivo y escribir dentro de él en el momento
+
+MV: Sirve para mover un archivo y luego ejecutar git add en el nuevo archivo y git rm (se puede usar para eliminar archivos sueltos o un conjunto de ellos) en el archivo antiguo.
+
+1) name: Build and test of Java Project
+
+on : [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+    - name: echo a String
+      run: echo "Hello World"
+      
+    - name: echo a CD
+      run: |
+            mkdir pepe
+            cd pepe
+            ls >> gg.txt
+            
+    - name: echo a tail
+      run: |
+            mkdir javier
+            cd javier
+            touch holas.txt
+            ls >> hola.txt
+            tail hola.txt
+            
+    - name: echo a cat
+      run: |
+            mkdir jose
+            cd jose
+            cat > celu.txt 
+            
+    - name: echo a pwd
+      run: |   
+            pwd
+            
+    
+    - name: echo a cp
+      run: |
+            mkdir heredia
+            cd heredia
+            touch pepas.txt
+            cp pepas.txt /home/runner/work/Heredia-Benjamin-6-11/Heredia-Benjamin-6-11
+            
+    - name: echo a mv
+      run: |   
+            mkdir ultimo
+            cd ultimo
+            touch pelota.txt
+            mv pelota.txt /home/runner/work/Heredia-Benjamin-6-11/Heredia-Benjamin-6-11
+            ls -lta /home/runner/work/Heredia-Benjamin-6-11/Heredia-Benjamin-6-11
+
+2)
+	ls  /etc
+3)
+	ls / 
+4)
+   - name: Creacion de Carpetas
+       run: |   
+           cd ../../
+           mkdir alumno
+           cd alumno
+           mkdir optica
+           cd optica
+           mkdir alumnosopt
+           mkdir profesoresopt
+           mkdir aulaopt
+           cd alumnosopt
+           mkdir notasopt
